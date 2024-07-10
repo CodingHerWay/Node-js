@@ -22,3 +22,9 @@
 1720611178392: /favicon.ico New req recieved
 1720611437923: /about?myname=Ankita New req recieved
 1720611437988: /favicon.ico New req recieved
+1720612090866:GET /about?myname=Ankita New req recieved
+1720612090948:GET /favicon.ico New req recieved
+1720612393419:GET /about?myname=Ankita New req recieved
+1720612393479:GET /favicon.ico New req recieved
+1720612403096:GET /signup New req recieved
+1720612488058:GET /signup New req recieved
