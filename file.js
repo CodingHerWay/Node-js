@@ -1,9 +1,12 @@
  const fs = require("fs");
+ const os = require("os");
+
+ console.log(os.cpus().length);
  
-// sync call
+// sync call.. blocking request
 //fs.writeFileSync("./test.txt", "Hello");
 
-// Async call 
+// Async call.. non blocking
 //fs.writeFile("./test.txt", "Hello World", (err) => {});
 
 // we have to read contact file (path, encoding)
@@ -36,3 +39,6 @@ fs.appendFileSync("./test.txt", `${Date.now()} Hey There\n`);
 //fs.mkdirSync("my-docs");
 
 fs.mkdirSync("my-docss/a/b", {recursive: true});
+
+// default thread pool size = 4
+// max? - 8 core cpu - 8
